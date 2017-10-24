@@ -1,0 +1,12 @@
+{
+    "defaultEntryPoint": "index.html",
+    "namespace": "PlentyHelloWorld",
+    "menuEntries": [
+                    {
+                    "label": "General Settings",
+                    "menu": "settings/orders/pmpay",
+                    "urlKey": "hello-world",
+                    "entryPoint": "hello"
+                    }
+    ]
+}
