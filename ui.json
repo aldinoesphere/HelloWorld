@@ -6,7 +6,7 @@
                     "label": "General Settings",
                     "menu": "settings/orders/hello-world",
                     "urlKey": "hello-world",
-                    "entryPoint": "hello"
+                    "entryPoint": "../../../../hello"
                     }
     ]
 }
