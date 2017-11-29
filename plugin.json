@@ -15,7 +15,7 @@
     "serviceProvider": "HelloWorld\\Providers\\HelloWorldServiceProvider",
     "containers": [],
     "javaScriptFiles": [],
-    "require": ["IO"],
+    "require": [],
     "dependencies":{},
     "runOnBuild": [],
     "dataProviders": []
