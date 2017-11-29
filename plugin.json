@@ -1,8 +1,22 @@
 {
-    "name"              :"HelloWorld",
-    "description"       :"My first plugin",
-    "namespace"         :"HelloWorld",
-    "author"            :"Aldino",
-    "type"              :"template",
-    "serviceProvider"   :"HelloWorld\\Providers\\HelloWorldServiceProvider"
+    "name": "HelloWorld",
+    "namespace": "HelloWorld",
+    "type": "payment",
+    "version": "1.3.2",
+    "license": "AGPL-3.0",
+    "pluginIcon": "icon_plugin_xs.png",
+    "price": 0.00,
+    "description": "The official HelloWorld plugin for plentymarkets",
+    "shortDescription":{ "de":"Das offizielle, von plentymarkets entwickelte HelloWorld-Plugin für den Webshop Ceres und andere Template-Plugins.", "en":"The official HelloWorld plugin developed by plentymarkets for the online store Ceres and other template plugins."},
+    "categories":["3519"],
+    "keywords": ["HelloWorld", "official", "plentymarkets", "payment"],
+    "author": "plentymarkets GmbH",
+    "authorIcon": "",
+    "serviceProvider": "HelloWorld\\Providers\\HelloWorldServiceProvider",
+    "containers": [],
+    "javaScriptFiles": [],
+    "require": ["IO"],
+    "dependencies":{},
+    "runOnBuild": [],
+    "dataProviders": []
 }

@@ -3,10 +3,10 @@
     "namespace": "PlentyHelloWorld",
     "menuEntries": [
                     {
-                    "label": "General Settings",
-                    "menu": "settings/orders/hello-world",
-                    "urlKey": "hello-world",
-                    "entryPoint": "../../../../../hello"
+                      "label": "General Settings",
+                      "menu": "settings/orders/HelloWorld",
+                      "urlKey": "settings-helloworld-installment",
+                      "entryPoint": "index.html?action=settings_paypal_installment"
                     }
     ]
 }
