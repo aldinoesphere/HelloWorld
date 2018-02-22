@@ -10,6 +10,12 @@ class HelloWorldRouteServiceProvider extends RouteServiceProvider
 {
     public function map(Router $router)
     {
-        $router->get('settings/hello','HelloWorld\Controllers\ContentController@sayHello');
+    	$apiRouter->version(
+						['v1'],
+						['namespace' => 'HelloWorld\Controllers', 'middleware' => 'oauth'],
+						function ($apiRouter) {
+							$apiRouter->get('payment/skrill/setting/{plentyId}/{settingType}', 'ContentController@sayHello');
+						}
+		);
     }
 }
