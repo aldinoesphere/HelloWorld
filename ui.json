@@ -4,9 +4,9 @@
     "menuEntries": [
                     {
                       "label": "General Settings",
-                      "menu": "settings/orders/HelloWorld",
+                      "menu": "settings/orders/payment/HelloWorld",
                       "urlKey": "settings-helloworld-installment",
-                      "entryPoint": "index.html?action=settings_paypal_installment"
+                      "entryPoint": "index.html?action=settings_helloworld_installment"
                     }
     ]
 }
