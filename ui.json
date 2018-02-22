@@ -6,7 +6,7 @@
                       "label": "General Settings",
                       "menu": "settings/orders/payment/HelloWorld",
                       "urlKey": "settings-hello",
-                      "entryPoint": "index.html?action=settings_hello"
+                      "entryPoint": "../../../../../hello"
                     }
     ]
 }
