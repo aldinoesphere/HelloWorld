@@ -5,8 +5,8 @@
                     {
                       "label": "General Settings",
                       "menu": "settings/orders/payment/HelloWorld",
-                      "urlKey": "settings-helloworld-installment",
-                      "entryPoint": "index.html?action=settings_helloworld_installment"
+                      "urlKey": "settings-hello",
+                      "entryPoint": "index.html?action=settings_hello"
                     }
     ]
 }
