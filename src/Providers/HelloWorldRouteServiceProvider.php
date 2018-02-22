@@ -9,13 +9,13 @@ use Plenty\Plugin\Routing\ApiRouter;
  
 class HelloWorldRouteServiceProvider extends RouteServiceProvider
 {
-    public function map(Router $router)
+    public function map(Router $router, ApiRouter $apiRouter)
     {
     	$apiRouter->version(
 						['v1'],
 						['namespace' => 'HelloWorld\Controllers', 'middleware' => 'oauth'],
 						function ($apiRouter) {
-							$apiRouter->get('payment/skrill/setting/{plentyId}/{settingType}', 'ContentController@sayHello');
+							$apiRouter->get('payment/helloworld/setting/{settingType}', 'ContentController@sayHello');
 						}
 		);
     }
