@@ -1,5 +1,5 @@
 $(document).ready(function () {
-	var helloUrl = document.URL;
+	var helloUrl = new URL(document.URL);
 	var helloSettingType = helloUrl.searchParams.get('action');
 
 	var url = '/rest/payment/helloworld/setting/'+helloSettingType+'/';
