@@ -1,3 +1,11 @@
 $(document).ready(function () {
-	console.log('wohe');
+	console.log(document.URL);
+	// $.ajax({
+	// 	url : ,
+	// 	data : 
+	// }).done(function (r){
+	// 	$('hello-ui').html(r);
+	// }).fail(function() {
+
+	// });
 })
