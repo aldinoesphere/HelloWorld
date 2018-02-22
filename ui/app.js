@@ -1,6 +1,6 @@
 $(document).ready(function () {
 	var helloUrl = document.URL;
-	var helloSettingType = url.searchParams.get('action');
+	var helloSettingType = helloUrl.searchParams.get('action');
 
 	var url = '/rest/payment/helloworld/setting/'+helloSettingType+'/';
 	$.ajax({
